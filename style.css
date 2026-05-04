@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0a0a;
+    color: #d1d5db;
+    text-align: center;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  
+  .nav-logo {
+    color: #22c55e;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #22c55e;
+  }
+  
+  /* HERO */
+  .hero {
+    padding: 120px 20px 60px;
+    background: #111;
+  }
+  
+  .logo {
+    font-size: 55px;
+    color: #22c55e;
+  }
+  
+  /* BOX */
+  .box {
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    background: #111;
+    border-radius: 10px;
+  }
+  
+  /* BUTTON */
+  .btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #22c55e;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* LIST */
+  li {
+    background: #1f2937;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  /* SHOP */
+  .card {
+    display: inline-block;
+    background: #111;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  /* SCROLL ANIMATION */
+  .hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+  }
+  
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+  }
